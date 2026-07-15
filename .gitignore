@@ -1,0 +1,77 @@
+# =========================
+# Android Studio
+# =========================
+.idea/
+*.iml
+
+# Local configuration
+local.properties
+
+# =========================
+# Gradle
+# =========================
+.gradle/
+build/
+**/build/
+
+# Kotlin
+.kotlin/
+
+# Native build
+.externalNativeBuild/
+.cxx/
+
+# Captures
+captures/
+
+# APK / AAB
+*.apk
+*.ap_
+*.aab
+
+# Dex
+*.dex
+
+# Generated
+bin/
+gen/
+out/
+
+# Logs
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Signing keys
+# =========================
+*.jks
+*.keystore
+*.p12
+*.pem
+
+# =========================
+# Firebase / Google Services (optional)
+# Ignore ONLY if you don't want them in Git
+# =========================
+# app/google-services.json
+# app/src/**/google-services.json
+
+# =========================
+# Secrets
+# =========================
+*.properties
+!gradle.properties
+
+# Environment files
+.env
+.env.*
+
+# =========================
+# Profiling
+# =========================
+*.hprof
